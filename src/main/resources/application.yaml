@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sfg-ai-image
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        model: gpt-4o
+kind: Application
